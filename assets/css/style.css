@@ -1,16 +1,27 @@
-.cntdr {
+.cntdr{
     height: 100%; /*Refiero todo al 100% para ver en pantalla completa*/
     left: 0;
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 9999;
 }
 
-.cntdr_izquierdo {
+.cntdr_izquierdo{
     height: 100%;
     left: 0;
     position: fixed;
     top: 0;
     width: 150px;
     background-color: rgba(255, 255, 255, 0.534);
+}
+
+.cntdr_secundario{
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
 }
